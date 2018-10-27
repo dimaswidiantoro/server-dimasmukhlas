@@ -26,7 +26,7 @@ SECRET_KEY = '(b#(i2m%k7q_r0fzpimycbygc*ryx=t-s_fz+i%#5icqq0nou('
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+#'140.82.59.182','dimasmukhlas.com','notafraid.com'
 
 # Application definition
 

@@ -39,3 +39,12 @@ sudo nano /etc/systemd/system/gunicorn.service
 sudo systemctl start gunicorn
 sudo systemctl enable gunicorn
 sudo systemctl status gunicorn
+git init
+git commit -m "first commit"
+git config --global user.email "tjitrodimedjo@gmail.com"
+git config --global user.name "dimaswidiantoro"
+git add -A
+git commit -m "add semua"
+git remote add origin https://github.com/dimaswidiantoro/server-dimasmukhlas.git
+git push -u origin master
+exit

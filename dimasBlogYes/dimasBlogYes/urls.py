@@ -31,5 +31,6 @@ urlpatterns = [
     url(r'^about/', sitepages.views.about, name="about"),
     url(r'^blog', posts.views.home, name="home"),
     url(r'^$', frontpage.views.frontpage, name="frontpage"),
+    url(r'^contact/$', frontpage.views.contact, name="contact"),
     #url(r'^$', sitepages.views.frontpage, name="frontpage"),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -121,6 +121,14 @@ USE_L10N = True
 
 USE_TZ = True
 
+#email setting
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'dimasmukhlas@gmail.com'
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'dimasmukhlas'
+EMAIL_HOST_PASSWORD = 'django1234'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/

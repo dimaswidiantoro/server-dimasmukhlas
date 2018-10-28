@@ -25,7 +25,7 @@ SECRET_KEY = '(b#(i2m%k7q_r0fzpimycbygc*ryx=t-s_fz+i%#5icqq0nou('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['140.82.59.182','dimasmukhlas.com','notafraid.com']
 #'140.82.59.182','dimasmukhlas.com','notafraid.com'
 
 # Application definition
@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'dimasBlogYes.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dimasmukhlas',
+        'NAME': 'myproject',
         'USER': 'myprojectuser',
         'PASSWORD': 'password1234',
         'HOST': 'localhost',

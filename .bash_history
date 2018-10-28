@@ -48,3 +48,41 @@ git commit -m "add semua"
 git remote add origin https://github.com/dimaswidiantoro/server-dimasmukhlas.git
 git push -u origin master
 exit
+ls
+cd dimasBlogYes
+ls
+git status
+git pull origin master
+ls
+source venv/bin/activate
+python manage.py collectstatic
+deactivate
+sudo -u postgres psql
+$ locale
+locale-gen en_US en_US.UTF-8 
+sudo locale-gen en_US en_US.UTF-8 
+sudo dpkg-reconfigure locales
+\du
+sudo -u postgres psql
+pip freeze
+pip install pyscopg2
+pip install pyscopg
+pip install psycopg2
+ls
+source venv/bin/activate
+pip freeze
+ls
+python manage.py makemigrations
+"pip install psycopg2-binary
+
+pip install psycopg2-binary
+ls
+python manage.py migrate
+git add -A
+ls
+git status
+git commit -m "install database"
+git push origin master
+gists
+deactivate
+exit

@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'dimasBlogYes.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myproject',
+        'NAME': 'dimasmukhlas',
         'USER': 'myprojectuser',
         'PASSWORD': 'password1234',
         'HOST': 'localhost',
-        'PORT': '',
+        'PORT': '5432',
     }
 }
 

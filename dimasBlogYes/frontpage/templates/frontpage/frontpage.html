@@ -798,7 +798,7 @@
 
     <!-- contact
     ================================================== -->
-    <section id="contact" class="s-contact">
+    <div id="contact" class="s-contact">
 
         <div class="overlay"></div>
         <div class="contact__line"></div>
@@ -815,6 +815,12 @@
             <div class="contact-primary">
 
                 <h3 class="h6">Send Us A Message</h3>
+
+                <form action="https://formspree.io/your@email.com" method="POST">
+                  <input type="text" name="name">
+                  <input type="email" name="_replyto">
+                  <input type="submit" value="Send">
+                </form>
 
                 <!--<form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                     <fieldset>
@@ -846,7 +852,7 @@
                     </fieldset>
                 </form>-->
 
-                <form name="contactForm" id="contactForm" action="https://formspree.io/dimasmukhlas@gmail.com" method="POST" novalidate="true">
+                <!--<form name="contactForm" id="contactForm" action="https://formspree.io/dimasmukhlas@gmail.com" method="POST" novalidate="true">
                     <div class="form-field">
                     <input type="text" name="name" placeholder="Your Name" value="" minlength="2" class="full-width">
                     </div>
@@ -855,12 +861,12 @@
                     </div>
                     <!--<div class="form-field">
                     <input type="text" name="phone-number" type="text" id="contactSubject" placeholder="phone-numer" value="" class="full-width">
-                    </div>-->
+                    </div>
                     <div class="form-field">
                     <input type="text" name="message" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width">
                     </div>
                     <div class="form-field">
-                        <!-- <button class="full-width btn--primary"> -->
+                        <!-- <button class="full-width btn--primary">
                         <input type="submit" value="Send"></div>
                         <!--</button>
                      <div class="submit-loader">
@@ -870,10 +876,11 @@
                             <div class="bounce2"></div>
                             <div class="bounce3"></div>
                         </div>
-                     </div>-->
-                </div>
+                     </div>
+                    </div>
 
-                  </form>
+
+                  </form>-->
 
                 <!-- contact-warning -->
                 <div class="message-warning">
@@ -886,6 +893,7 @@
                 </div>
 
             </div> <!-- end contact-primary -->
+
 
             <div class="contact-secondary">
                 <div class="contact-info">

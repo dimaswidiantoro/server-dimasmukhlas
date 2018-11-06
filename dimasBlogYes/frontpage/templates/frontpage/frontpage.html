@@ -816,7 +816,7 @@
 
                 <h3 class="h6">Send Us A Message</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <!--<form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                     <fieldset>
 
                     <div class="form-field">
@@ -844,7 +844,36 @@
                     </div>
 
                     </fieldset>
-                </form>
+                </form>-->
+
+                <form name="contactForm" id="contactForm" action="https://formspree.io/dimasmukhlas@gmail.com" method="POST" novalidate="true">
+                    <div class="form-field">
+                    <input type="text" name="name" placeholder="Your Name" value="" minlength="2" class="full-width">
+                    </div>
+                    <div class="form-field">
+                    <input type="email" name="_replyto" placeholder="Your Email" value="" required="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                    <input type="text" name="phone-number" type="text" id="contactSubject" placeholder="phone-numer" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                    <input type="text" name="message" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <!-- <button class="full-width btn--primary"> -->
+                        <input type="submit" value="Send"></div>
+                        <!--</button>
+                     <div class="submit-loader">
+                        <div class="text-loader">Sending...</div>
+                        <div class="s-loader">
+                            <div class="bounce1"></div>
+                            <div class="bounce2"></div>
+                            <div class="bounce3"></div>
+                        </div>
+                     </div>-->
+                </div>
+
+                  </form>
 
                 <!-- contact-warning -->
                 <div class="message-warning">
@@ -933,11 +962,14 @@
                 <p>Get notified in our newsletter</p>
 
                 <div class="subscribe-form">
-                    <form id="mc-form" class="group" novalidate="true">
+                    
+                    <!--<form id="mc-form" class="group" novalidate="true">
                         <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
                         <input type="submit" name="subscribe" value="Subscribe">
                         <label for="mc-email" class="subscribe-message"></label>
-                    </form>
+                    </form>-->
+                    
+
                 </div>
 
             </div>
